@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B3A0D5BD9D786D772239BFA /* Pods_cloudWalletAssetSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBCB240F108237F23B4D4A6 /* Pods_cloudWalletAssetSwift.framework */; };
 		B02F376420F47D9200767FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F376320F47D9200767FAA /* AppDelegate.swift */; };
 		B02F376620F47D9200767FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F376520F47D9200767FAA /* ViewController.swift */; };
 		B02F376920F47D9200767FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02F376720F47D9200767FAA /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		B02F377120F47D9500767FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02F376F20F47D9500767FAA /* LaunchScreen.storyboard */; };
 		B02F377C20F47D9500767FAA /* cloudWalletAssetSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F377B20F47D9500767FAA /* cloudWalletAssetSwiftTests.swift */; };
 		B02F378720F47D9500767FAA /* cloudWalletAssetSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F378620F47D9500767FAA /* cloudWalletAssetSwiftUITests.swift */; };
+		E6BE95710FCE0D3DD6747C9D /* Pods_cloudWalletAssetSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F452DC1788392F5B5FFFDB25 /* Pods_cloudWalletAssetSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D9388C36EB7C7012E3A51D4 /* Pods-cloudWalletAssetSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudWalletAssetSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-cloudWalletAssetSwift/Pods-cloudWalletAssetSwift.release.xcconfig"; sourceTree = "<group>"; };
+		52B5A0C0851BCE89F199A74C /* Pods-cloudWalletAssetSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudWalletAssetSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cloudWalletAssetSwiftTests/Pods-cloudWalletAssetSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CBCB240F108237F23B4D4A6 /* Pods_cloudWalletAssetSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cloudWalletAssetSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02F376020F47D9200767FAA /* cloudWalletAssetSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudWalletAssetSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02F376320F47D9200767FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B02F376520F47D9200767FAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		B02F378220F47D9500767FAA /* cloudWalletAssetSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloudWalletAssetSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02F378620F47D9500767FAA /* cloudWalletAssetSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudWalletAssetSwiftUITests.swift; sourceTree = "<group>"; };
 		B02F378820F47D9500767FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3EA52DA5EC2A6DC522F051 /* Pods-cloudWalletAssetSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudWalletAssetSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cloudWalletAssetSwiftTests/Pods-cloudWalletAssetSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6411B83A0C94C80703DC430 /* Pods-cloudWalletAssetSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudWalletAssetSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cloudWalletAssetSwift/Pods-cloudWalletAssetSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		F452DC1788392F5B5FFFDB25 /* Pods_cloudWalletAssetSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cloudWalletAssetSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3A0D5BD9D786D772239BFA /* Pods_cloudWalletAssetSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6BE95710FCE0D3DD6747C9D /* Pods_cloudWalletAssetSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C7CA9CFEAFE36A0FD52DDEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CBCB240F108237F23B4D4A6 /* Pods_cloudWalletAssetSwift.framework */,
+				F452DC1788392F5B5FFFDB25 /* Pods_cloudWalletAssetSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B0E6BAFBE2480CC73A9D260 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6411B83A0C94C80703DC430 /* Pods-cloudWalletAssetSwift.debug.xcconfig */,
+				1D9388C36EB7C7012E3A51D4 /* Pods-cloudWalletAssetSwift.release.xcconfig */,
+				CA3EA52DA5EC2A6DC522F051 /* Pods-cloudWalletAssetSwiftTests.debug.xcconfig */,
+				52B5A0C0851BCE89F199A74C /* Pods-cloudWalletAssetSwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B02F375720F47D9200767FAA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				B02F377A20F47D9500767FAA /* cloudWalletAssetSwiftTests */,
 				B02F378520F47D9500767FAA /* cloudWalletAssetSwiftUITests */,
 				B02F376120F47D9200767FAA /* Products */,
+				9B0E6BAFBE2480CC73A9D260 /* Pods */,
+				8C7CA9CFEAFE36A0FD52DDEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B02F378B20F47D9500767FAA /* Build configuration list for PBXNativeTarget "cloudWalletAssetSwift" */;
 			buildPhases = (
+				8D5B0012143674009075C614 /* [CP] Check Pods Manifest.lock */,
 				B02F375C20F47D9200767FAA /* Sources */,
 				B02F375D20F47D9200767FAA /* Frameworks */,
 				B02F375E20F47D9200767FAA /* Resources */,
+				F80845E153EB9CACB411ED37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B02F378E20F47D9500767FAA /* Build configuration list for PBXNativeTarget "cloudWalletAssetSwiftTests" */;
 			buildPhases = (
+				4976480061F21F03AAF2AE6C /* [CP] Check Pods Manifest.lock */,
 				B02F377320F47D9500767FAA /* Sources */,
 				B02F377420F47D9500767FAA /* Frameworks */,
 				B02F377520F47D9500767FAA /* Resources */,
+				446AF7F42EF0DC029C695D0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +289,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		446AF7F42EF0DC029C695D0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cloudWalletAssetSwiftTests/Pods-cloudWalletAssetSwiftTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cloudWalletAssetSwiftTests/Pods-cloudWalletAssetSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4976480061F21F03AAF2AE6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cloudWalletAssetSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D5B0012143674009075C614 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cloudWalletAssetSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80845E153EB9CACB411ED37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cloudWalletAssetSwift/Pods-cloudWalletAssetSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cloudWalletAssetSwift/Pods-cloudWalletAssetSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B02F375C20F47D9200767FAA /* Sources */ = {
@@ -432,16 +561,14 @@
 		};
 		B02F378C20F47D9500767FAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6411B83A0C94C80703DC430 /* Pods-cloudWalletAssetSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99XZGLJ24P;
 				INFOPLIST_FILE = cloudWalletAssetSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudWalletAssetSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -451,16 +578,14 @@
 		};
 		B02F378D20F47D9500767FAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9388C36EB7C7012E3A51D4 /* Pods-cloudWalletAssetSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99XZGLJ24P;
 				INFOPLIST_FILE = cloudWalletAssetSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudWalletAssetSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -470,17 +595,14 @@
 		};
 		B02F378F20F47D9500767FAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3EA52DA5EC2A6DC522F051 /* Pods-cloudWalletAssetSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99XZGLJ24P;
 				INFOPLIST_FILE = cloudWalletAssetSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudWalletAssetSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -491,17 +613,14 @@
 		};
 		B02F379020F47D9500767FAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B5A0C0851BCE89F199A74C /* Pods-cloudWalletAssetSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99XZGLJ24P;
 				INFOPLIST_FILE = cloudWalletAssetSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudWalletAssetSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -517,11 +636,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99XZGLJ24P;
 				INFOPLIST_FILE = cloudWalletAssetSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudWalletAssetSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -537,11 +652,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99XZGLJ24P;
 				INFOPLIST_FILE = cloudWalletAssetSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudWalletAssetSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

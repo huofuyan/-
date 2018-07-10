@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.7.2)
+  - IQKeyboardManager (6.0.2)
+  - Kingfisher (4.7.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - RxBlocking (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - RxTest (3.6.1):
+    - RxSwift (~> 3.6)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - IQKeyboardManager
+  - Kingfisher
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - RxBlocking (~> 3.0)
+  - RxTest (~> 3.0)
+  - SnapKit (~> 4.0.0)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - IQKeyboardManager
+    - Kingfisher
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - RxBlocking
+    - RxSwift
+    - RxTest
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  IQKeyboardManager: c49d59e358aeeffaa0280aa305093c2b194d2607
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  RxBlocking: 4f4bd5732e8b952e54ae8a57739bcfb645de12bc
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  RxTest: 1d00348a7848c91ab5bf5d197d2378aa6b2bb356
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: cd6eaa9d3dea34846b0dc89216dfa104cb80fb37
+
+COCOAPODS: 1.5.0
