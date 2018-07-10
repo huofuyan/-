@@ -1,0 +1,30 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'cloudWalletAssetSwift' do
+#pod 'AFNetworking'
+#pod 'Harpy'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+#pod 'SDWebImage'
+pod 'Masonry'
+pod 'IQKeyboardManager'
+pod 'Alamofire', '~> 4.5'
+pod 'SwiftyJSON'
+pod 'Kingfisher'
+#pod 'Quick'
+#pod 'Nimble'
+#pod 'Eureka'
+pod 'SnapKit', '~> 4.0.0'
+#pod 'Heimdall', '~> 1.1.0'
+#pod 'Spring'
+
+#pod 'RxSwift',    '~> 3.0'
+#pod 'RxCocoa',    '~> 3.0'
+end
+
+# RxTests and RxBlocking make the most sense in the context of unit/integration tests
+target 'cloudWalletAssetSwiftTests' do
+    pod 'RxBlocking', '~> 3.0'
+    pod 'RxTest',     '~> 3.0'
+end
